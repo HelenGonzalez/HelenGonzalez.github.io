@@ -5,3 +5,9 @@ $(document).ready(function(){
     $('#card_holder').append('<div class="card"><p>'+card_array[i]+'</p></div>');
   }
 });
+var card1="none"
+$('.card')on ('click',function()){
+  $mycard=(this). find('p');
+  $mycard.css('opacity',1);
+  card1=$mycard.html();
+}
