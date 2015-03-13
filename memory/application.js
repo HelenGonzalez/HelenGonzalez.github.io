@@ -11,4 +11,4 @@ $('.card')on ('click',function()){
   $mycard=(this). find('p');
   $mycard.css('opacity',1);
   card1=$mycard.html();
-}
+});
