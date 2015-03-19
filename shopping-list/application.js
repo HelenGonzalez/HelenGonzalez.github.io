@@ -1,9 +1,9 @@
 $(document).ready(function(){
-  $(input').val()
+  $(input').val();
   if{
   $('button').on9'click',function();
   }else
   $('p').val();
-  $('#mydiv').append(...)
+  $('#mydiv').append()
 });
 
