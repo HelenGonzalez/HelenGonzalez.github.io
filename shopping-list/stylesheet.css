@@ -3,8 +3,8 @@ h1{
   margin-right: auto;
 }
 p{
-  font-style: normal;
+  font-style: italic;
 }
 #item-holder{
-  font-style: normal;
+  font-style #2: normal;
 }
