@@ -1,9 +1,6 @@
 $(document).ready(function(){
-  $(input').val();
-  if{
-  $('button').on9'click',function();
-  }else
-  $('p').val();
-  $('#mydiv').append()
+  $('button').on('click',function(){
+      var input=$('input').val();
+       $('#item-holder').append("<p>"+input+"</p>") 
+  });
 });
-
