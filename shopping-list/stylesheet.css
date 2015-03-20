@@ -5,3 +5,6 @@ h1{
 p{
   font-style: italic;
 }
+#item-holder{
+  font-style: normal;
+}
