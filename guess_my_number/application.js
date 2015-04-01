@@ -3,7 +3,7 @@ $(document).ready(function(){
   var chooseNumber = Math.floor(Math.random()*100)
 }
   //when the player clicks on the 'guess' button
-  $('button').on('click', function()){
+  ('button').on('click', function()){
     //save their guess as a variable
     var guess = parseInt($('input').val());
     
