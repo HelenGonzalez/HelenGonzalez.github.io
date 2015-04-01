@@ -22,5 +22,5 @@ $(document).ready(function(){
       //update the 'feedback' paragraph to tell them to guess higher
       console.log('Go higher!');
     }
-  };
+  });
 });
