@@ -13,12 +13,13 @@ $(document).ready(function(){
       //what happens if the guess is correct?
       console.log(You are correct!);
     //if the user guessed too high...
-      console.log(Think lower!);
+      if(guess > chooseNumber)
       //update the 'feedback' paragraph to tell them to guess lower
-      
+      console.log(Guess lower!)
     //otherwise, the user guessed too low...
-      console.log(Go higher!);
+      if(guess < chooseNumber)
       //update the 'feedback' paragraph to tell them to guess higher
+      console.log(Go higher!)
   };
   });
 });
