@@ -7,7 +7,7 @@ $(document).ready(function(){
 });
 var card1="none"
 //making the cards appear=struggles
-$('.card').on('click',function()){
+{$('.card').on('click',function()){
   $mycard=(this). find('p');
   $mycard.css('opacity',1);
   card1=$mycard.html();
