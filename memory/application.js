@@ -4,7 +4,6 @@ $(document).ready(function(){
   for(i in card_array){
     $('#card_holder').append('<div class="card"><p>'+card_array[i]+'</p></div>');
   }
-});
 var card1="none"
 //making the cards appear=struggles
 $('.card').on('click',function()){
