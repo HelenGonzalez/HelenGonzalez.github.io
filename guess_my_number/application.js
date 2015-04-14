@@ -24,5 +24,5 @@ $(document).ready(function(){
     }
       $('input').val("");
   })
-  $('#guess_counter')= increase 1;
+  $('#guess_counter').increase 1;
 });
