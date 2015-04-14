@@ -7,6 +7,5 @@ $(document).ready(function(){
   var card1="none";
   $('.card').on('click',function(){
     $(this).find('p').css('opacity',1);
-    card1= $('click'.html());
   });
 });
