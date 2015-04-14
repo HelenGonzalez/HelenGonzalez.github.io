@@ -5,10 +5,8 @@ $(document).ready(function(){
     $('#card_holder').append('<div class="card"><p>'+card_array[i]+'</p></div>');
   }
   var card1="none";
-  var mycard= "card"
-  //making the cards appear=struggles
   $('.card').on('click',function(){
-    $ mycard.css('opacity',1);
-    card1= $ mycard.html();
+    $(mycard.css('opacity',1));
+    card1= $(mycard.html());
   });
 });
