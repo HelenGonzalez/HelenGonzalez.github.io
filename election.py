@@ -11,4 +11,4 @@ for i in range(10000):
   if region >= 2:
     win += 1
 
-print "Candidate A would have won the elections %s percent." %(win/10000)
+print "Candidate A would have won the elections %s percent." %(win/range(10000))
