@@ -1,15 +1,14 @@
-from random import random
-
+from random import randint
+win=0
 for i in range(10000):
   regions = 0
-  if random.random(100) <= 87:
+  if random(1,100) <= 87:
     regions +=1
-    if random.random(100) <= 65:
+    if randint(1,100) <= 65:
       regions += 1
-    if random.random(100) <= 17:
+    if randint(100) <= 17:
       regions += 1
   if region >= 2:
-    print "Candidate A wins!"
-  else:
-    print "Candidate B wins!"
-    
+    win += 1
+
+print "Candidate A would have won the elections %s percent." %(win/10000)
