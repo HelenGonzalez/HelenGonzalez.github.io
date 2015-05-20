@@ -12,29 +12,23 @@ def move_forward(feet): #make a function that takes in a number of feet and move
   fwd() #motion function in the gopigo library
   time.sleep(feet*2) #set this wait for as long as the movement will take 
   
-move_forward(4) #this would use your funtion definition to move the robot foward 3 feet
-
 def turn_right():
-  enc_tgt(1,0,9)
+  enc_tgt(1,0,14)
   time.sleep(.1)
   right()
   time.sleep(2)
   
-move_foward(3)
-
-def move_foward(feet):
-  enc_tgt(1,1,steps)
+def turn_left():
+  enc_tgt(0,1,14)
   time.sleep(.1)
-  fwd()
+  left()
   time.sleep(2)
-  
+move_foward(4)
+turn_right
 move_foward(3)
-
-def turn_right():
-  enc_tgt(1,0,9)
-  time.sleep(.1)
-  right()
-  time.sleep(2)
-  
-  
-
+turn_right
+move_foward(3)
+turn_left
+move_foward(2)
+turn_left
+move_foward(4)
