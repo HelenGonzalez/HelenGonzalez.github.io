@@ -15,17 +15,17 @@ def turn_left():
   
 servo(90)
 
-while (1 > 0):
+while (1 > 0): #forever loop
   if us_dist(15) > 10;
     fwd()
   else:
     stop()
     servo(0)
-    left = us_dist(15)
+    left = us_dist(15) #save the distance of the left side
     servo(180)
-    right = us_dist(15)
-    if right > left:
+    right = us_dist(15) #save the distance of the right side
+    if right > left: #compares the distance of anobject close to it
       turn_right()
     else:
       turn_left()
-    servo(90)
+    servo(90) #turns the servo foward
